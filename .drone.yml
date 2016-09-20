@@ -1,4 +1,5 @@
-build:
-  image: golang
-  commands:
-    - echo ${PATH}
+pipeline:
+  build:
+    image: golang
+    commands:
+      - echo ${PATH}
